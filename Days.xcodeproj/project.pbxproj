@@ -16,6 +16,8 @@
 		02BE3B84225FCBAE0002C10F /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BE3B83225FCBAE0002C10F /* PieViewController.swift */; };
 		02BE3B86225FE5520002C10F /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BE3B85225FE5520002C10F /* DatePickerViewController.swift */; };
 		02D3271E2261272A00AA44B2 /* ActionSheetTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D3271D2261272A00AA44B2 /* ActionSheetTransitioning.swift */; };
+		02E898DB2261E7D80053D745 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E898DA2261E7D80053D745 /* Util.swift */; };
+		02E898DD2261EA330053D745 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E898DC2261EA330053D745 /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		02BE3B83225FCBAE0002C10F /* PieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
 		02BE3B85225FE5520002C10F /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		02D3271D2261272A00AA44B2 /* ActionSheetTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetTransitioning.swift; sourceTree = "<group>"; };
+		02E898DA2261E7D80053D745 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		02E898DC2261EA330053D745 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		023922DA225E6EDB007F22B3 /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				02E898DC2261EA330053D745 /* Dynamic.swift */,
 				023922DB225E6EDB007F22B3 /* AppDelegate.swift */,
 				023922DD225E6EDB007F22B3 /* ViewController.swift */,
 				023922DF225E6EDB007F22B3 /* Main.storyboard */,
@@ -72,6 +77,7 @@
 				02BE3B83225FCBAE0002C10F /* PieViewController.swift */,
 				02BE3B85225FE5520002C10F /* DatePickerViewController.swift */,
 				02D3271D2261272A00AA44B2 /* ActionSheetTransitioning.swift */,
+				02E898DA2261E7D80053D745 /* Util.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 				02BE3B86225FE5520002C10F /* DatePickerViewController.swift in Sources */,
 				023922DC225E6EDB007F22B3 /* AppDelegate.swift in Sources */,
 				02D3271E2261272A00AA44B2 /* ActionSheetTransitioning.swift in Sources */,
+				02E898DB2261E7D80053D745 /* Util.swift in Sources */,
+				02E898DD2261EA330053D745 /* Dynamic.swift in Sources */,
 				02448DA6225FC4A0004AD5D2 /* PieView.swift in Sources */,
 				02BE3B84225FCBAE0002C10F /* PieViewController.swift in Sources */,
 			);
